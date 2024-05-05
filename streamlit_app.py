@@ -78,7 +78,7 @@ def configure_sidebar() -> None:
             ---
             Join the journey at:
 
-            Website🌐 → [Vers3Dynamics](https://mitpress.vercel.app)
+            Welcome Home🌐 → [Vers3Dynamics](https://mitpress.vercel.app)
             
             AI Chatbots powered by Groq [Synapse Scribes](https://woodyard.streamlit.app/)
               
@@ -184,7 +184,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
     # Gallery display for inspo
     with gallery_placeholder.container():
         img = image_select(
-            label="Click, capture, and cherish!😉",
+            label="🪄Click, capture, and cherish!",
             images=[
                 "gallery/farmer_sunset.png", "gallery/astro_on_unicorn.png",
                 "gallery/friends.png", "gallery/wizard.png", "gallery/puppy.png",
