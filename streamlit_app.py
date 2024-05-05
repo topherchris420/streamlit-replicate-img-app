@@ -11,7 +11,7 @@ st.set_page_config(page_title="Vers3Dynamics",
                    page_icon="🎨",
                    layout="wide")
 icon.show_icon("📡")
-st.markdown("# :rainbow[Reflections in Pixels: Image Echoes]")
+st.markdown("# :rainbow[Vers3Dynamics: Reflections in Pixels")
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
 REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
@@ -78,11 +78,11 @@ def configure_sidebar() -> None:
             ---
             Join the journey at:
 
-            Portfolio → [Vers3Dynamics](https://mitpress.vercel.app)
+            Website🌐 → [Vers3Dynamics](https://mitpress.vercel.app)
             
             AI Chatbots powered by Groq [Synapse Scribes](https://woodyard.streamlit.app/)
               
-            LinkedIn → [Christopher woodyard](https://www.linkedin.com/in/christopher-woodyard-eth/)
+            LinkedIn → [Christopher Woodyard](https://www.linkedin.com/in/christopher-woodyard-eth/)
 
             """
         )
