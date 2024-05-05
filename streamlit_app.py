@@ -7,11 +7,11 @@ from utils import icon
 from streamlit_image_select import image_select
 
 # UI configurations
-st.set_page_config(page_title="Vers3Dynamics Image Generator",
+st.set_page_config(page_title="Vers3Dynamics",
                    page_icon="🎨",
                    layout="wide")
 icon.show_icon("📡")
-st.markdown("# :rainbow[Text-to-Image Artistry Studio]")
+st.markdown("# :rainbow[Reflections in Pixels: Image Echoes]")
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
 REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
