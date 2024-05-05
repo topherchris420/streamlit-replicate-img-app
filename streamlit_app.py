@@ -7,10 +7,10 @@ from utils import icon
 from streamlit_image_select import image_select
 
 # UI configurations
-st.set_page_config(page_title="Replicate Image Generator",
-                   page_icon=":bridge_at_night:",
+st.set_page_config(page_title="Vers3Dynamics Image Generator",
+                   page_icon="🎨",
                    layout="wide")
-icon.show_icon(":foggy:")
+icon.show_icon("📡")
 st.markdown("# :rainbow[Text-to-Image Artistry Studio]")
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
@@ -76,11 +76,13 @@ def configure_sidebar() -> None:
         st.markdown(
             """
             ---
-            Follow me on:
+            Join the journey at:
 
-            𝕏 → [@tonykipkemboi](https://twitter.com/tonykipkemboi)
-
-            LinkedIn → [Tony Kipkemboi](https://www.linkedin.com/in/tonykipkemboi)
+            Portfolio → [Vers3Dynamics](https://mitpress.vercel.app)
+            
+            AI Chatbots powered by Groq [Synapse Scribes](https://woodyard.streamlit.app/)
+              
+            LinkedIn → [Christopher woodyard](https://www.linkedin.com/in/christopher-woodyard-eth/)
 
             """
         )
@@ -109,9 +111,9 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
         negative_prompt (str): Text prompt for elements to avoid in the image.
     """
     if submitted:
-        with st.status('👩🏾‍🍳 Whipping up your words into art...', expanded=True) as status:
+        with st.status('👩🏾‍🍳 Sculpting your words into art...', expanded=True) as status:
             st.write("⚙️ Model initiated")
-            st.write("🙆‍♀️ Stand up and strecth in the meantime")
+            st.write("🙆‍♀️ Stand up and stretch in the meantime")
             try:
                 # Only call the API if the "Submit" button was pressed
                 if submitted:
@@ -182,7 +184,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
     # Gallery display for inspo
     with gallery_placeholder.container():
         img = image_select(
-            label="Like what you see? Right-click and save! It's not stealing if we're sharing! 😉",
+            label="Click, capture, and cherish!😉",
             images=[
                 "gallery/farmer_sunset.png", "gallery/astro_on_unicorn.png",
                 "gallery/friends.png", "gallery/wizard.png", "gallery/puppy.png",
