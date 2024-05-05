@@ -11,7 +11,7 @@ st.set_page_config(page_title="Vers3Dynamics",
                    page_icon="🎨",
                    layout="wide")
 icon.show_icon("📡")
-st.markdown("# :rainbow[Vers3Dynamics: Reflections in Pixels")
+st.markdown("# :rainbow[Vers3Dynamics: Reflections in Pixels]")
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
 REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
