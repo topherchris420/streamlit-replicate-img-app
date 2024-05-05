@@ -36,7 +36,7 @@ def configure_sidebar() -> None:
     """
     with st.sidebar:
         with st.form("my_form"):
-            st.info("**Words bloom into visual poetry.↓**", icon="👋🏾")
+            st.info("**At Vers3Dynamics, Words Bloom into Visual Poetry.↓**", icon="👋🏾")
             with st.expander(":rainbow[**Refine your output here**]"):
                 # Advanced Settings (for the curious minds!)
                 width = st.number_input("Width of output image", value=1024)
