@@ -78,7 +78,7 @@ def configure_sidebar() -> None:
             ---
             Join the journey at:
 
-            Introduction🌐[Preface](https://share.synthesia.io/2016838e-6dc0-426f-b362-daad40add0f4)
+            Introduction🌐[Preface](https://share.synthesia.io/064c0de8-097a-4d93-82bf-92b741021b84)
             
             Welcome Home [Vers3Dynamics](https://mitpress.vercel.app)
             
