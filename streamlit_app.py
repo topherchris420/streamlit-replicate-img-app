@@ -78,7 +78,9 @@ def configure_sidebar() -> None:
             ---
             Join the journey at:
 
-            Welcome Home🌐 [Vers3Dynamics](https://mitpress.vercel.app)
+            Introduction🌐[Preface](https://share.synthesia.io/2016838e-6dc0-426f-b362-daad40add0f4)
+            
+            Welcome Home [Vers3Dynamics](https://mitpress.vercel.app)
             
             AI Chatbots powered by Groq [Synapse Scribes](https://woodyard.streamlit.app/)
               
