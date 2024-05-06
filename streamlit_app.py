@@ -85,6 +85,8 @@ def configure_sidebar() -> None:
             AI Chatbots powered by Groq [Synapse Scribes](https://woodyard.streamlit.app/)
               
             LinkedIn → [Christopher Woodyard](https://www.linkedin.com/in/christopher-woodyard-eth/)
+            
+            AI voice assistant → +1 (855) 939-5534
 
             """
         )
