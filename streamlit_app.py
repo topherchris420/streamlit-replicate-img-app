@@ -76,7 +76,7 @@ def configure_sidebar() -> None:
         st.markdown(
             """
             ---
-            Join the journey at:
+            Start the journey at:
 
             Introduction🌐[Preface](https://share.synthesia.io/064c0de8-097a-4d93-82bf-92b741021b84)
             
