@@ -27,7 +27,7 @@ generated_images_placeholder = st.empty()
 gallery_placeholder = st.empty()
 
 
-def configure_sidebar() -🙋🏾> None:
+def configure_sidebar() -> None:
     """
     Setup and display the sidebar elements.
 
