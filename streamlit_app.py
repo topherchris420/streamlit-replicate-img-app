@@ -27,7 +27,7 @@ generated_images_placeholder = st.empty()
 gallery_placeholder = st.empty()
 
 
-def configure_sidebar() -> None:
+def configure_sidebar() -🙋🏾> None:
     """
     Setup and display the sidebar elements.
 
@@ -59,7 +59,7 @@ def configure_sidebar() -> None:
                 ":orange[**Enter prompt: start typing, Shakespeare ✍🏾**]",
                 value="An astronaut riding a rainbow unicorn, cinematic, dramatic")
             negative_prompt = st.text_area(":orange[**Party poopers you don't want in image? 🙅🏽‍♂️**]",
-                                           value="the absolute worst quality, distorted features",
+                                           value="the absolute worst quality, distorted features, literal doo doo water",
                                            help="This is a negative prompt, basically type what you don't want to see in the generated image")
 
             # The Big Red "Submit" Button!
@@ -115,9 +115,9 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
         negative_prompt (str): Text prompt for elements to avoid in the image.
     """
     if submitted:
-        with st.status('👩🏾‍🍳 Sculpting your words into art...', expanded=True) as status:
+        with st.status('🧑🏾‍🎨 Sculpting your words into art...', expanded=True) as status:
             st.write("⚙️ Model initiated")
-            st.write("🙆‍♀️ Stand up and stretch in the meantime")
+            st.write("🙆🏾 Stand up and stretch in the meantime")
             try:
                 # Only call the API if the "Submit" button was pressed
                 if submitted:
@@ -141,7 +141,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
                         )
                         if output:
                             st.toast(
-                                'Your image has been generated!', icon='😍')
+                                'Your picture has been generated!', icon='😍')
                             # Save generated image to session state
                             st.session_state.generated_image = output
 
