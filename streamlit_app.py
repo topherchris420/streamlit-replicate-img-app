@@ -58,7 +58,7 @@ def configure_sidebar() -> None:
             prompt = st.text_area(
                 ":orange[**Enter prompt: start typing, Shakespeare ✍🏾**]",
                 value="An astronaut riding a rainbow unicorn, cinematic, dramatic")
-            negative_prompt = st.text_area(":orange[**Party poopers you don't want in image? 🙅🏽‍♂️**]",
+            negative_prompt = st.text_area(":orange[**Party poopers you don't want in image? 🙅🏾**]",
                                            value="the absolute worst quality, distorted features, literal doo doo water",
                                            help="This is a negative prompt, basically type what you don't want to see in the generated image")
 
@@ -86,7 +86,7 @@ def configure_sidebar() -> None:
               
             LinkedIn → [Christopher Woodyard](https://www.linkedin.com/in/christopher-woodyard-eth/)
             
-            AI voice assistant → +1 (855) 939-5534
+            AI voice assistant 🧚🏼‍♀️ +1 (855) 939-5534
 
             """
         )
