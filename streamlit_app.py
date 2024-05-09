@@ -24,6 +24,19 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# Create an iframe to embed the D-ID agent
+st.markdown(
+    f"""
+    <iframe
+        src="https://agent.d-id.com/v1/index.html"
+        width="100%"
+        height="500"
+        frameborder="0"
+        allowfullscreen
+    ></iframe>
+    """,
+    unsafe_allow_html=True
+
 
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
