@@ -53,6 +53,7 @@ replicate_logo = "https://storage.googleapis.com/llama2_release/Screen%20Shot%20
 generated_images_placeholder = st.empty()
 gallery_placeholder = st.empty()
 
+st.sidebar.audio("Vers3Dynamics.mp3", format="audio/mp3", start_time=0)
 
 def configure_sidebar() -> None:
     """
