@@ -91,7 +91,7 @@ def configure_sidebar() -> None:
 
             # The Big Red "Submit" Button!
             submitted = st.form_submit_button(
-                "Submit", type="primary", use_container_width=True)
+                "Let's do this", type="primary", use_container_width=True)
 
         # Credits and resources
         st.divider()
