@@ -24,21 +24,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Create an iframe to embed the D-ID agent
-st.markdown(
-    f"""
-    <iframe
-        src="https://studio.d-id.com/agents/share?id=agt_5_RTFHoS&key=WjI5dloyeGxMVzloZFhSb01ud3hNRFEyTVRNME5UazVOVGt5TURrMk1USXpOemM2T0ZWQ2JrbzBOV2RMYjNBNVlsOTJNSE5mZUU5UA=="
-        width="100%"
-        height="500"
-        frameborder="0"
-        allowfullscreen
-    ></iframe>
-    """,
-    unsafe_allow_html=True
-)
-
-
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
 REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
