@@ -8,7 +8,7 @@ from streamlit_image_select import image_select
 
 # UI configurations
 st.set_page_config(page_title="Vers3Dynamics",
-                   page_icon="🎨",
+                   page_icon="coast_chris.png",
                    layout="wide")
 icon.show_icon("📡")
 st.markdown(
