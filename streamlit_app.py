@@ -95,7 +95,7 @@ def configure_sidebar() -> None:
             
             Welcome Home [Vers3Dynamics](https://mitpress.vercel.app)
             
-            AI Chatbots powered by Groq [Synapse Scribes](https://woodyard.streamlit.app/)
+            Meet James. AI Dog Assistant Powered by Groq [Woof Woof](https://woodyard.streamlit.app/)
               
             LinkedIn → [Christopher Woodyard](https://www.linkedin.com/in/christopher-woodyard-eth/)
             
