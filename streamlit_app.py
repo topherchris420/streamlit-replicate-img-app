@@ -29,7 +29,7 @@ st.markdown(
     type="module"
     src="https://agent.d-id.com/v1/index.js"
     data-name="did-agent"
-    data-mode="fabio"
+    data-mode="elsa"
     data-client-key="Z29vZ2xlLW9hdXRoMnwxMDQ2MTM0NTk5NTkyMDk2MTIzNzc6OFVCbko0NWdLb3A5Yl92MHNfeE9P"
     data-agent-id="agt_5_RTFHoS">
 </script>
