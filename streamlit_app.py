@@ -25,6 +25,16 @@ st.markdown(
 )
 
 
+<script
+    type="module"
+    src="https://agent.d-id.com/v1/index.js"
+    data-name="did-agent"
+    data-mode="fabio"
+    data-client-key="Z29vZ2xlLW9hdXRoMnwxMDQ2MTM0NTk5NTkyMDk2MTIzNzc6OFVCbko0NWdLb3A5Yl92MHNfeE9P"
+    data-agent-id="agt_5_RTFHoS">
+</script>
+    
+
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
 REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
 REPLICATE_MODEL_ENDPOINTSTABILITY = st.secrets["REPLICATE_MODEL_ENDPOINTSTABILITY"]
