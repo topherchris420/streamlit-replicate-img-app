@@ -99,7 +99,7 @@ def configure_sidebar() -> None:
               
             LinkedIn → [Christopher Woodyard](https://www.linkedin.com/in/christopher-woodyard-eth/)
             
-            AI voice assistant 🧚🏼‍♀️ +1 (855) 939-5534
+            Talk to Grace 🧚🏼‍♀️ (855) 939-5534
 
             """
         )
