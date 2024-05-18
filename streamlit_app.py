@@ -92,8 +92,10 @@ def configure_sidebar() -> None:
             Start the journey:
 
             Introduction🌐[Preface](https://share.synthesia.io/064c0de8-097a-4d93-82bf-92b741021b84)
+
+            Poetry Book [📚](https://bookstore.dorrancepublishing.com/products/life-of-a-line)
             
-            Welcome Home [Vers3Dynamics](https://mitpress.vercel.app)
+            Portfolio [Vers3Dynamics](https://mitpress.vercel.app)
             
             Meet James. AI Dog Assistant Powered by Groq [Woof Woof](https://woodyard.streamlit.app/)
               
