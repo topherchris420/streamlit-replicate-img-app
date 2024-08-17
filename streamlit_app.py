@@ -16,7 +16,7 @@ st.markdown(
     <h1>
         <a href='https://woodyard.dappling.network/' style='text-decoration:none;color:inherit;'>
             <span style='background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);-webkit-background-clip: text;color: transparent;'>
-                Vers3Dynamics: Reflections in Pixels
+                Vers3Dynamics: Reflections in Biocentrism 
             </span>
         </a>
     </h1>
@@ -49,7 +49,7 @@ def configure_sidebar() -> None:
     """
     with st.sidebar:
         with st.form("my_form"):
-            st.info("**At Vers3Dynamics, Words Bloom into Visual Poetry.↓**", icon="👋🏾")
+            st.info("**At Vers3Dynamics, tomorrow is today.↓**", icon="👋🏾")
             with st.expander(":rainbow[**Polish your results**]"):
                 # Advanced Settings (for the curious minds!)
                 width = st.number_input("Width of output image", value=1024)
@@ -97,11 +97,11 @@ def configure_sidebar() -> None:
             
             Portfolio [Vers3Dynamics](https://mitpress.vercel.app)
             
-            Meet James. AI Dog Assistant Powered by Groq [Woof Woof](https://woodyard.streamlit.app/)
+            Meet James. AI Dog Assistant Powered by Groq [🐕](https://woodyard.streamlit.app/)
               
             LinkedIn → [Christopher Woodyard](https://www.linkedin.com/in/christopher-woodyard-eth/)
             
-            Talk to Grace 🧚🏼‍♀️ (855) 939-5534
+            Talk to Grace 🧚🏼‍♀️ +1 (855) 939-5534
 
             """
         )
